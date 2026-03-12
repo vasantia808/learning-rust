@@ -55,7 +55,9 @@ for why these vulnerabilities exist in other languages.
 
 ## What Tripped Me Up
 
-*Add notes here as you work through ownership concepts.*
+- The variable, not the value has a type.
+
+*Will add notes here as I work through ownership concepts.*
 
 ---
 
