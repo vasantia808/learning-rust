@@ -57,6 +57,8 @@ for why these vulnerabilities exist in other languages.
 
 - The variable, not the value has a type.
 
+---
+
 *Will add notes here as I work through ownership concepts.*
 
 ---
