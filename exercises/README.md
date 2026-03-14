@@ -8,15 +8,20 @@ not documented here — only insights worth remembering.
 
 ## Insights
 
-*Insights will be added here as I work through Rustlings.*
+### Mutable Bindings
+**Date:** 2026-03-13  
+**Exercise:** move_semantics3   
+**Insight:** The `mut` keyword belongs to the variable, not the type.
 
-### Example format
+```
+mut vec: Vec<i32>  // "vec" is a mutable binding
+vec: mut Vec<i32>  // invalid — mut can't go here
+```
 
-**Exercise area:** Variables  
-**Insight:** Rust variables are immutable by default. You have to 
-explicitly declare mutability with `mut`. This is the opposite of 
-most languages and forces you to be intentional about what changes.
+**Why it matters for security:** Immutability by default reduces 
+the risk of unintended state changes, which is a common source of 
+bugs and vulnerabilities in other languages.
 
 ---
 
-*Last updated: 2026-03-11*
+*Last updated: 2026-03-13*
