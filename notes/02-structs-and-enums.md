@@ -45,8 +45,16 @@ enum Result<T, E> {
 
 ---
 
-*Will add notes here as I work through structs and enums.*
+- Learned about how you can create a new instance of a struct, using
+  some of the values of another instance. This can be done via struct
+  update syntax. It's important to note that some types that live on
+  the stack, like booleans, integers, and chars, are copied by Rust via
+  the `Copy` trait. Types like a String, which have data on the heap,
+  have to either be moved or explicitly cloned. Also, when you move
+  the data from one field in a struct instance to another instance,
+  that field becomes invalid, but the other fields are not affected
+  and are still useable.
 
 ---
 
-*Last updated: 2026-03-11*
+*Last updated: 2026-03-17*
