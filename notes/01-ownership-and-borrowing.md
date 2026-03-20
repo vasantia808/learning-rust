@@ -59,7 +59,7 @@ for why these vulnerabilities exist in other languages.
 
 ---
 
-*Will add notes here as I work through ownership concepts.*
+**
 
 ---
 
