@@ -5,7 +5,7 @@ on systems programming and security tooling.
 
 **Status:** In progress — currently working through ownership, 
 borrowing, and types  
-**Resources:** The Rust Book, Rustlings exercises
+**Resources:** The Rust Book, Rustlings exercises, [The Rust Developer Roadmap (2026 Edition)](https://youtube.com/playlist?list=PLPoSdR46FgI5QaLuj6muwN2T8WHUfV3AF&si=6W9zXlomBV9LzxyU)
 
 ---
 
